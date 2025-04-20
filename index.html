@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Face Recognition Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Face Recognition Demo</h1>
+
+  <div id="videoContainer">
+    <video id="video" autoplay muted></video>
+  </div>
+
+  <div id="messageBox">Loading...</div>
+  <button id="scanNextBtn">Scan Next Face</button>
+
+  <!-- Load face-api.js -->
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <!-- Load your script -->
+  <script defer src="script.js"></script>
+</div>
+</body>
+</html>
